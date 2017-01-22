@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simply save wikipedia sessions",
+  "description": "A simple way to save each wikipedia reading session",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "persistent": true,
+    "scripts": ["wiki.js"]
+  },
+  "permissions": [
+    "history",
+    "https://ajax.googleapis.com/"
+  ]
+}
